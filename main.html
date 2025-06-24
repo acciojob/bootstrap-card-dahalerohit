@@ -4,13 +4,62 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+<div class="container">
+        <h4>Welcome to Sync5</h4>
+        <div class="col">
+            <div class="card card-deck">
+
+
+                <h5 class="card-header  bg-light">New Feature</h5>
+                <div class="card-body">
+                    <h2 class="card-title">Mobile and Tablet Support</h2>
+                    <p class="card-text">With this new update you will be able to sync your work across large number of
+                        platforms.</p>
+                    <button class="btn bg-primary text-white rounded-3">Read more</button>
+                </div>
+            </div>
+
+            <div class="card mt-1 w-25">
+                <h6 class="card-header bg-danger text-white">Alert</h6>
+                <div class="card-body bg-danger text-white">
+                    <h2 class="card-title">Node Dead</h2>
+                    <p class="card-text"> Node 5 (east-us) is offline for last 12 days</p>
+                </div>
+
+            </div>
+
+            <div class="card card-deck mt-1">
+                <img style="height: 250px;" class="card-img-top"
+                    src="data:image/jpeg;base64,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"
+                    alt="underwater-img">
+
+                <h2 class="card-title mt-2 ms-3">President Under Pressure</h2>
+                <div class="card-body"></div>
+                <h5 class="card-text ms-3">The US president is under pressure to respond to a widespread cyber-attack
+                    linked to china.</h5>
+                <p class="text-muted ms-3">Last updated 12 mins ago</p>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+    </div>
+
+	
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 
 </html>
